@@ -1,0 +1,68 @@
+/* Place your CSS styles in this file */
+
+
+
+<style>
+    /* Tuo stile originale */
+    body {
+        font-family: "Lato", sans-serif;
+        background-color: #f1f1f1;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+
+    /* Stile Wikipedia per i titoli di sezione (H2) */
+    h2 {
+        font-family: "Source Sans Pro", sans-serif;
+        color: #202122;
+        border-bottom: 1px solid #a2a9b1; /* La riga sottile tipica di Wiki */
+        padding-bottom: 5px;
+        margin-top: 40px;
+        font-weight: normal;
+    }
+
+    /* Sidebar fissa */
+    .w3-sidebar {
+        width: 250px;
+        background-color: #fff;
+        border-right: 1px solid #ddd;
+    }
+
+    /* Contenitore delle sezioni (Box bianchi) */
+    .wiki-section {
+        background: white;
+        padding: 30px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    /* Infobox laterale */
+    .infobox {
+        float: right;
+        width: 260px;
+        border: 1px solid #a2a9b1;
+        background: #f8f9fa;
+        margin: 0 0 20px 20px;
+        padding: 10px;
+        font-size: 0.85em;
+    }
+
+    /* Adattamento per il contenuto principale */
+    .main-content {
+        margin-left: 250px;
+        padding: 20px;
+    }
+
+    /* Responsive per mobile */
+    @media (max-width: 992px) {
+        .w3-sidebar { display: none; }
+        .main-content { margin-left: 0; }
+    }
+</style>
